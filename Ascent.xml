@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<profiles xmlns="http://www.logitech.com/Cassandra/2010.7/Profile">
+  <profile lock="0" gpasupported="0" name="Ascent" launchable="1" gkeysdk="0" guid="{A5319A65-AB7A-4E08-BE70-B0FEC3C3E785}" lastplayeddate="2021-12-12T01:00:58" gameid="">
+    <description></description>
+    <target path="C:\PROGRAM FILES\LOGITECH GAMING SOFTWARE\LCORE.EXE"/>
+    <signature key="" name="" value="" executable=""/>
+    <macros/>
+    <backlight devicemodel="Logitech.Gaming.LeftHandedController.G13">
+      <mode shiftstate="1" color="#3011ff"/>
+      <mode shiftstate="2" color="#ffffff"/>
+      <mode shiftstate="3" color="#ffffff"/>
+    </backlight>
+    <script>function OnEvent(event, arg)
+    OutputLogMessage("event = %s, arg = %s\n", event, arg)
+end</script>
+  </profile>
+</profiles>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<profiles xmlns="http://www.logitech.com/Cassandra/2010.7/Profile">
+  <profile lock="0" gpasupported="1" name="Sid Meier's Civilization VI (DX12)" launchable="1" gkeysdk="0" guid="{D29E985F-677D-44E5-9C14-110F9EA1F20E}" lastplayeddate="" gameid="com.firaxis.CivTech">
+    <description></description>
+    <target path="G:\JEUX\EPIC GAMES\SIDMEIERSCIVILIZATIONVI\BASE\BINARIES\WIN64EOS\CIVILIZATIONVI_DX12.EXE"/>
+    <signature key="" name="" value="" executable=""/>
+    <macros/>
+    <script>function OnEvent(event, arg)
+    OutputLogMessage("event = %s, arg = %s\n", event, arg)
+end</script>
+  </profile>
+</profiles>
